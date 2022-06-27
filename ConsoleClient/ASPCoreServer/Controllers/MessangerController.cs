@@ -13,13 +13,14 @@ namespace ASPCoreServer.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "TEest 1" + id.ToString();
         }
 
         // POST api/<MessangerController>
         [HttpPost]
         public void Post([FromBody] string value)
         {
+
         }
 
     }
